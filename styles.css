@@ -58,6 +58,7 @@ h1, h2 {
 }
 
 table {
+    min-width: 700px;
 width: 100%;
 border-collapse: collapse;
 margin-top: 20px;
@@ -80,7 +81,8 @@ tr:nth-child(even) {
 }
 
 .tablecontainer {
-  overflow-x: auto;
+  overflow-x: scroll;
+  max-width: 100%;
 }
 
 button {
