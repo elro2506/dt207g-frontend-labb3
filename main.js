@@ -1,4 +1,4 @@
-const url = "http://localhost:5000/experience";
+const url = "https://dt207g-labb3.onrender.com/experience";
 
 function getData() {
     fetch(url)
